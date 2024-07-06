@@ -1,0 +1,38 @@
+footer{
+    max-width: 1240px;
+    border-top: 1px solid gray;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0 1px 4px;
+}
+
+.logo-left p{
+    color: black;
+    padding: 10px 20px;
+}
+
+.links{
+    padding: 10px 20px;
+}
+
+.links a{
+    font-size: 16px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+@media (max-width: 480px){
+    footer{
+        height: 100px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
